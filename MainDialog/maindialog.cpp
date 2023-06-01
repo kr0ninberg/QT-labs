@@ -5,15 +5,12 @@ maindialog::maindialog(QWidget *parent)
 {
     labelConstantValue = new QLabel(tr("Постоянная величина"));
     lineEditConstantValue = new QLineEdit;
-    labelConstantValue->setBuddy(lineEditConstantValue);
 
     labelFormula = new QLabel(tr("Формула или обозначение"));
     lineEditFormula = new QLineEdit;
-    labelFormula->setBuddy(lineEditFormula);
 
     labelNumberValue = new QLabel(tr("Числовое значение"));
     lineEditNumberValue = new QLineEdit;
-    labelNumberValue->setBuddy(lineEditNumberValue);
 
     addButton = new QPushButton(tr("&Добавить"));
     clearButton = new QPushButton(tr("&Очистить"));
@@ -49,7 +46,6 @@ maindialog::maindialog(QWidget *parent)
     setLayout(mainLayout);
 
     setWindowTitle(tr("MainDialog"));
-    setFixedHeight(sizeHint().height());
 }
 
 void maindialog::addClicked()

@@ -14,9 +14,6 @@ Dialog::Dialog(QWidget *parent)
 
     QRegularExpression regPassword("[0-9a-zA-Z!@#$%^&*]{6}");
     ui->lineEditPassword->setValidator(new QRegularExpressionValidator (regPassword, this));
-
-    connect(ui->registerButton, SIGNAL(clicked()),this,SLOT(accept()));
-    connect(ui->cancelButton, SIGNAL(clicked()),this,SLOT(reject()));
 }
 
 Dialog::~Dialog()
