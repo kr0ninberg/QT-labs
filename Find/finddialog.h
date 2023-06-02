@@ -1,12 +1,6 @@
-#ifndef FINDDIALOG_H
-#define FINDDIALOG_H
+#pragma once
 
-#include <QDialog>
-
-class QLabel;
-class QLineEdit;
-class QCheckBox;
-class QPushButton;
+#include <QtWidgets>
 
 class FindDialog : public QDialog
 {
@@ -31,5 +25,3 @@ private:
     QCheckBox *backwardCheckBox;
 
 };
-
-#endif // FINDDIALOG_H

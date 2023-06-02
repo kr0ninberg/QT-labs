@@ -37,7 +37,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = Table1.0.0
-DISTDIR = /home_2/Downloads/QT-Labs-main/Table_(642)/.tmp/Table1.0.0
+DISTDIR = /home_2/Projects/QT-Labs-main/Table_(642)/.tmp/Table1.0.0
 LINK          = g++
 LFLAGS        = -Wl,-rpath,/home/kroninberg/Qt/6.4.3/gcc_64/lib -Wl,-rpath-link,/home/kroninberg/Qt/6.4.3/gcc_64/lib
 LIBS          = $(SUBLIBS) /home/kroninberg/Qt/6.4.3/gcc_64/lib/libQt6Widgets.so /home/kroninberg/Qt/6.4.3/gcc_64/lib/libQt6Gui.so /home/kroninberg/Qt/6.4.3/gcc_64/lib/libQt6Core5Compat.so -pthread /home/kroninberg/Qt/6.4.3/gcc_64/lib/libQt6Core.so -lpthread -lGL   
@@ -1163,7 +1163,7 @@ moc_mainwindow.cpp: mainwindow.h \
 		/home/kroninberg/Qt/6.4.3/gcc_64/include/QtGui/qtextdocument.h \
 		moc_predefs.h \
 		/home/kroninberg/Qt/6.4.3/gcc_64/libexec/moc
-	/home/kroninberg/Qt/6.4.3/gcc_64/libexec/moc $(DEFINES) --include '/home_2/Downloads/QT-Labs-main/Table_(642)/moc_predefs.h' -I/home/kroninberg/Qt/6.4.3/gcc_64/mkspecs/linux-g++ -I'/home_2/Downloads/QT-Labs-main/Table_(642)' -I/home/kroninberg/Qt/6.4.3/gcc_64/include -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtWidgets -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtGui -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtCore5Compat -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include mainwindow.h -o moc_mainwindow.cpp
+	/home/kroninberg/Qt/6.4.3/gcc_64/libexec/moc $(DEFINES) --include '/home_2/Projects/QT-Labs-main/Table_(642)/moc_predefs.h' -I/home/kroninberg/Qt/6.4.3/gcc_64/mkspecs/linux-g++ -I'/home_2/Projects/QT-Labs-main/Table_(642)' -I/home/kroninberg/Qt/6.4.3/gcc_64/include -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtWidgets -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtGui -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtCore5Compat -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include mainwindow.h -o moc_mainwindow.cpp
 
 moc_dialog.cpp: dialog.h \
 		/home/kroninberg/Qt/6.4.3/gcc_64/include/QtWidgets/QDialog \
@@ -1308,7 +1308,7 @@ moc_dialog.cpp: dialog.h \
 		/home/kroninberg/Qt/6.4.3/gcc_64/include/QtCore/qlocale.h \
 		moc_predefs.h \
 		/home/kroninberg/Qt/6.4.3/gcc_64/libexec/moc
-	/home/kroninberg/Qt/6.4.3/gcc_64/libexec/moc $(DEFINES) --include '/home_2/Downloads/QT-Labs-main/Table_(642)/moc_predefs.h' -I/home/kroninberg/Qt/6.4.3/gcc_64/mkspecs/linux-g++ -I'/home_2/Downloads/QT-Labs-main/Table_(642)' -I/home/kroninberg/Qt/6.4.3/gcc_64/include -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtWidgets -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtGui -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtCore5Compat -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include dialog.h -o moc_dialog.cpp
+	/home/kroninberg/Qt/6.4.3/gcc_64/libexec/moc $(DEFINES) --include '/home_2/Projects/QT-Labs-main/Table_(642)/moc_predefs.h' -I/home/kroninberg/Qt/6.4.3/gcc_64/mkspecs/linux-g++ -I'/home_2/Projects/QT-Labs-main/Table_(642)' -I/home/kroninberg/Qt/6.4.3/gcc_64/include -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtWidgets -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtGui -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtCore5Compat -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include dialog.h -o moc_dialog.cpp
 
 moc_finddialog.cpp: finddialog.h \
 		/home/kroninberg/Qt/6.4.3/gcc_64/include/QtWidgets/QDialog \
@@ -1449,7 +1449,7 @@ moc_finddialog.cpp: finddialog.h \
 		/home/kroninberg/Qt/6.4.3/gcc_64/include/QtCore/qnativeinterface.h \
 		moc_predefs.h \
 		/home/kroninberg/Qt/6.4.3/gcc_64/libexec/moc
-	/home/kroninberg/Qt/6.4.3/gcc_64/libexec/moc $(DEFINES) --include '/home_2/Downloads/QT-Labs-main/Table_(642)/moc_predefs.h' -I/home/kroninberg/Qt/6.4.3/gcc_64/mkspecs/linux-g++ -I'/home_2/Downloads/QT-Labs-main/Table_(642)' -I/home/kroninberg/Qt/6.4.3/gcc_64/include -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtWidgets -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtGui -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtCore5Compat -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include finddialog.h -o moc_finddialog.cpp
+	/home/kroninberg/Qt/6.4.3/gcc_64/libexec/moc $(DEFINES) --include '/home_2/Projects/QT-Labs-main/Table_(642)/moc_predefs.h' -I/home/kroninberg/Qt/6.4.3/gcc_64/mkspecs/linux-g++ -I'/home_2/Projects/QT-Labs-main/Table_(642)' -I/home/kroninberg/Qt/6.4.3/gcc_64/include -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtWidgets -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtGui -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtCore5Compat -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include finddialog.h -o moc_finddialog.cpp
 
 moc_sort.cpp: sort.h \
 		/home/kroninberg/Qt/6.4.3/gcc_64/include/QtWidgets/QDialog \
@@ -1590,7 +1590,7 @@ moc_sort.cpp: sort.h \
 		/home/kroninberg/Qt/6.4.3/gcc_64/include/QtCore/qnativeinterface.h \
 		moc_predefs.h \
 		/home/kroninberg/Qt/6.4.3/gcc_64/libexec/moc
-	/home/kroninberg/Qt/6.4.3/gcc_64/libexec/moc $(DEFINES) --include '/home_2/Downloads/QT-Labs-main/Table_(642)/moc_predefs.h' -I/home/kroninberg/Qt/6.4.3/gcc_64/mkspecs/linux-g++ -I'/home_2/Downloads/QT-Labs-main/Table_(642)' -I/home/kroninberg/Qt/6.4.3/gcc_64/include -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtWidgets -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtGui -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtCore5Compat -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include sort.h -o moc_sort.cpp
+	/home/kroninberg/Qt/6.4.3/gcc_64/libexec/moc $(DEFINES) --include '/home_2/Projects/QT-Labs-main/Table_(642)/moc_predefs.h' -I/home/kroninberg/Qt/6.4.3/gcc_64/mkspecs/linux-g++ -I'/home_2/Projects/QT-Labs-main/Table_(642)' -I/home/kroninberg/Qt/6.4.3/gcc_64/include -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtWidgets -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtGui -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtCore5Compat -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include sort.h -o moc_sort.cpp
 
 moc_spreadsheet.cpp: spreadsheet.h \
 		/home/kroninberg/Qt/6.4.3/gcc_64/include/QtWidgets/QTableWidget \
@@ -1749,7 +1749,7 @@ moc_spreadsheet.cpp: spreadsheet.h \
 		/home/kroninberg/Qt/6.4.3/gcc_64/include/QtWidgets/qrubberband.h \
 		moc_predefs.h \
 		/home/kroninberg/Qt/6.4.3/gcc_64/libexec/moc
-	/home/kroninberg/Qt/6.4.3/gcc_64/libexec/moc $(DEFINES) --include '/home_2/Downloads/QT-Labs-main/Table_(642)/moc_predefs.h' -I/home/kroninberg/Qt/6.4.3/gcc_64/mkspecs/linux-g++ -I'/home_2/Downloads/QT-Labs-main/Table_(642)' -I/home/kroninberg/Qt/6.4.3/gcc_64/include -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtWidgets -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtGui -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtCore5Compat -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include spreadsheet.h -o moc_spreadsheet.cpp
+	/home/kroninberg/Qt/6.4.3/gcc_64/libexec/moc $(DEFINES) --include '/home_2/Projects/QT-Labs-main/Table_(642)/moc_predefs.h' -I/home/kroninberg/Qt/6.4.3/gcc_64/mkspecs/linux-g++ -I'/home_2/Projects/QT-Labs-main/Table_(642)' -I/home/kroninberg/Qt/6.4.3/gcc_64/include -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtWidgets -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtGui -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtCore5Compat -I/home/kroninberg/Qt/6.4.3/gcc_64/include/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include spreadsheet.h -o moc_spreadsheet.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:

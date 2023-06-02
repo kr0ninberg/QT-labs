@@ -1,8 +1,8 @@
-#include <QtGui>
+#include <QtWidgets>
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
-#include "spreadSheet.h"
+#include "spreadsheet.h"
 #include "finddialog.h"
 #include "dialog.h"
 #include "sort.h"

@@ -3,9 +3,10 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {
-    QTextCodec *codec = QTextCodec::codecForName("CP1251");
-    QTextCodec::setCodecForTr(codec);
-    setWindowTitle(tr("<h2>Привет 123!</h2>"));
+    //QTextCodec *codec = QTextCodec::codecForName("CP1251");
+    //QTextCodec::setCodecForTr(codec);
+    //QTextCodec::setCodecForLocale(codec);
+    setWindowTitle(tr("<h2>Р Р°Р±РѕС‚Р°РµС‚!</h2>"));
     resize(500,500);
 }
 

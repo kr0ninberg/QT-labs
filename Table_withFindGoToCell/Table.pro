@@ -4,8 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui\
-        core5compat
+QT       += core gui widgets #core5compat
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 

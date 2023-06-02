@@ -1,3 +1,5 @@
+QT += core gui widgets
+
 HEADERS += \
     finddialog.h
 

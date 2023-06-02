@@ -22,7 +22,7 @@ void Sort::setColumnRange(QChar first, QChar last)
         ui->firstColumnBox->addItem(QString(ch));
         ui->secondColumnBox->addItem(QString(ch));
         ui->thirdColumnBox->addItem(QString(ch));
-        ch = ch.unicode()+1;
+        ch = ch.unicode();
     }
 }
 int Sort::getIndexFirst()

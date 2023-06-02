@@ -2,7 +2,7 @@
 #define DIALOG_H
 
 #include <QDialog>
-//#include <QRegularExpressionValidator>
+#include <QRegularExpressionValidator>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Dialog; }
