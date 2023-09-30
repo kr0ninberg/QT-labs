@@ -1,5 +1,4 @@
-#ifndef DIALOG_H
-#define DIALOG_H
+#pragma once
 
 #include <QDialog>
 #include <QRegularExpressionValidator>
@@ -23,4 +22,3 @@ private:
 private slots:
     void on_lineEdit_textChanged();
 };
-#endif // DIALOG_H

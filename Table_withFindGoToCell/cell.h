@@ -1,5 +1,4 @@
-#ifndef CELL_H
-#define CELL_H
+#pragma once
 
 #include <QTableWidgetItem>
 
@@ -24,5 +23,3 @@ private:
     mutable bool cacheIsDirty;
     mutable QVariant cachedValue;
 };
-
-#endif // CELL_H

@@ -1,13 +1,11 @@
-#ifndef MAINDIALOG_H
-#define MAINDIALOG_H
-
+#pragma once
 #include <QtWidgets>
 
 class maindialog : public QDialog
 {
     Q_OBJECT
 public:
-    /*explicit*/ maindialog(QWidget *parent = nullptr);
+    explicit maindialog(QWidget *parent = nullptr);
 
 signals:
     void add(const QString &str);
@@ -26,5 +24,3 @@ private:
     QPushButton *addButton;
     QPushButton *clearButton;
 };
-
-#endif // MAINDIALOG_H

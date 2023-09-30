@@ -16,7 +16,7 @@ maindialog::maindialog(QWidget *parent)
     clearButton = new QPushButton(tr("&Очистить"));
 
     addButton->setDefault(true);
-    addButton->setEnabled(true);
+    //addButton->setEnabled(true);
 
     connect(addButton, SIGNAL(clicked()),this,SLOT(addClicked()));
     connect(clearButton, SIGNAL(clicked()),this,SLOT(clearClicked()));

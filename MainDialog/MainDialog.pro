@@ -4,4 +4,4 @@ HEADERS += \
 SOURCES += \
     main.cpp \
     maindialog.cpp
-QT += widgets
+QT += core gui widgets
